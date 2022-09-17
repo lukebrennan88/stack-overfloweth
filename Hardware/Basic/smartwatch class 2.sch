@@ -4327,11 +4327,18 @@ if desired</text>
 <text x="58.42" y="144.78" size="5.08" layer="91" font="vector" ratio="15">nRF52832 Module (microcontroller)</text>
 <text x="76.2" y="269.24" size="5.08" layer="91" font="vector" ratio="15">OLED</text>
 <text x="218.44" y="261.62" size="5.08" layer="91" font="vector" ratio="15">power management</text>
-<text x="157.48" y="297.18" size="5.08" layer="91" font="vector" ratio="15">buttons</text>
+<text x="154.94" y="287.02" size="5.08" layer="91" font="vector" ratio="15">buttons</text>
 <text x="-40.64" y="144.78" size="5.08" layer="91" font="vector" ratio="15">SD card</text>
 <text x="365.76" y="149.86" size="5.08" layer="91" font="vector" ratio="15">real-time clock</text>
 <text x="241.3" y="142.24" size="5.08" layer="91" font="vector" ratio="15">cortex debugger/programmer</text>
 <text x="287.02" y="96.52" size="5.08" layer="91" font="vector" ratio="15" rot="R180">RTC</text>
+<wire x1="-88.9" y1="307.34" x2="-81.28" y2="307.34" width="2.54" layer="94"/>
+<wire x1="-81.28" y1="307.34" x2="462.28" y2="307.34" width="2.54" layer="94"/>
+<wire x1="462.28" y1="307.34" x2="462.28" y2="-12.7" width="2.54" layer="94"/>
+<wire x1="462.28" y1="-12.7" x2="-91.44" y2="-12.7" width="2.54" layer="94"/>
+<wire x1="-91.44" y1="-12.7" x2="-91.44" y2="307.34" width="2.54" layer="94"/>
+<wire x1="-91.44" y1="309.88" x2="-91.44" y2="307.34" width="2.54" layer="94"/>
+<wire x1="-91.44" y1="307.34" x2="-88.9" y2="307.34" width="2.54" layer="94"/>
 </plain>
 <instances>
 <instance part="GND1" gate="G$1" x="60.96" y="68.58" smashed="yes">

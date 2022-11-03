@@ -5199,6 +5199,11 @@ if desired</text>
 <wire x1="292.1" y1="218.44" x2="292.1" y2="226.06" width="0.1524" layer="91"/>
 <label x="292.1" y="220.98" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="P0.31/AIN7"/>
+<wire x1="86.36" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+<label x="83.82" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VIN" class="0">
 <segment>
@@ -5307,13 +5312,6 @@ if desired</text>
 <pinref part="U2" gate="G$1" pin="P0.30/AIN6"/>
 <wire x1="86.36" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 <label x="83.82" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="A7/BATT" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="P0.31/AIN7"/>
-<wire x1="86.36" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
-<label x="83.82" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D16/CS.OLED" class="0">
